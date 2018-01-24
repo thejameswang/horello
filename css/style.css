@@ -56,7 +56,7 @@ a {
 }
 
 .add-list {
-  background: rgba(0,0,0,.12);
+  background-color: rgba(0,0,0,.15);
   color: #fff;
   border: 0;
   text-align: left;
@@ -71,6 +71,7 @@ a {
 }
 
 .add-list:hover {
+  background-color: rgba(0, 0, 0, 0.3)
   /** PART 1 CSS here */
 }
 
@@ -99,29 +100,49 @@ a {
   max-height: 100%;
   display: flex;
   flex-direction: column;
+  /* border: solid red 1px; */
+  padding: .5em;
+  margin: 5px;
+  border-radius: 3px;
+  width: 270px;
+  background-color: #e2e4e6;
   /** PART 2 CSS here */
 }
 
 .list-header {
   display: block;
   position: relative;
-
+  margin-bottom: .5em;
+  color: black;
+  font-weight: 700;
   /** PART 2 CSS here */
 }
 
 .list-footer {
+  font-weight: 500;
   /** PART 2 CSS here */
 }
 
 .list-title {
+  font-weight: bold;
   /** PART 2 CSS here */
 }
 
 .add-card {
+  height: 40px;
+  border-radius: 4px;
+  text-align: left;
+  background: rgba(16,16,16,.15);
+  color: #333;
+  margin: 3px 0px;
+  width: 100%;
+  border: none;
+  outline: none;
   /** PART 2 CSS here */
 }
 
 .add-card:hover {
+  background: rgba(96,96,96,.15);
   /** PART 2 CSS here */
 }
 
