@@ -1,3 +1,2 @@
 # horello
-
-This is a read me test	
+This is a full functioning, responsive Trello clone
