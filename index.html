@@ -20,7 +20,23 @@
   </header>
 
   <!-- PART 5. Modal -->
-
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <input type="text" class="form-control" value="#DominateAllTheHouses">
+      </div>
+      <div class="modal-body">
+        <textarea class="form-control" rows="5" data-gramm="true" data-txt_gramm_id="4432a0a8-5d34-8d21-f1fa-3d7522934e63" data-gramm_id="4432a0a8-5d34-8d21-f1fa-3d7522934e63" spellcheck="false" data-gramm_editor="true" style="z-index: auto; position: relative; line-height: 20px; font-size: 14px; transition: none; background: transparent !important;" placeholder='Card body goes here'></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
   <div class="board">
     <div class="list-container">
       <div class="list">
@@ -28,7 +44,7 @@
           <span class="list-title">Some List</span>
         </div>
         <div class="list-cards">
-          <div class="card">
+          <div class="card" data-toggle="modal" data-target="#myModal">
             <div class="card-body pre-scrollable">
               <p>Leverage agile frameworks to provide a robust
                 synopsis for high level overviews. Iterative
@@ -75,7 +91,7 @@
           <span class="list-title">House List</span>
         </div>
         <div class="list-cards">
-          <div class="card">
+          <div class="card" data-toggle="modal" data-target="#myModal">
             <div class="card-body">
               <span class="card-more">
                 <span class="glyphicon glyphicon-align-left"></span>
@@ -83,7 +99,7 @@
               Today we will #DominateAllTheHouses
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-toggle="modal" data-target="#myModal">
             <div class="card-body">
               <span class="card-more">
                 <span class="glyphicon glyphicon-align-left"></span>
@@ -91,7 +107,7 @@
               #Dominate the houses again
             </div>
           </div>
-          <div class="card">
+          <div class="card"data-toggle="modal" data-target="#myModal">
             <div class="card-body">
               <span class="card-more">
                 <span class="glyphicon glyphicon-align-left"></span>
@@ -99,7 +115,7 @@
               #Dominate the houses again
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-toggle="modal" data-target="#myModal">
             <div class="card-body">
               <span class="card-more">
                 <span class="glyphicon glyphicon-align-left"></span>
@@ -107,7 +123,7 @@
               #Dominate the houses again
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-toggle="modal" data-target="#myModal">
             <div class="card-body">
               <span class="card-more">
                 <span class="glyphicon glyphicon-align-left"></span>
